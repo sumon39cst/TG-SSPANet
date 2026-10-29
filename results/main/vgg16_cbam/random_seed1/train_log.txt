@@ -1,0 +1,32 @@
+vgg16_cbam | random_seed1 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 14.749639, 'gflops': 15.34670253, 'ms_per_image': 1.86845064163208}
+ep 01 loss 0.4538 acc 0.8143 | val loss 0.2056 acc 0.9088 | 15.6s
+ep 02 loss 0.2347 acc 0.9139 | val loss 0.1845 acc 0.9446 | 15.8s
+ep 03 loss 0.1080 acc 0.9624 | val loss 0.0529 acc 0.9935 | 16.0s
+ep 04 loss 0.0741 acc 0.9743 | val loss 0.0915 acc 0.9674 | 16.0s
+ep 05 loss 0.0315 acc 0.9906 | val loss 0.1682 acc 0.9544 | 16.0s
+ep 06 loss 0.0537 acc 0.9820 | val loss 0.0793 acc 0.9805 | 16.0s
+ep 07 loss 0.0400 acc 0.9865 | val loss 0.0464 acc 0.9837 | 16.0s
+ep 08 loss 0.0196 acc 0.9939 | val loss 0.1039 acc 0.9577 | 16.0s
+ep 09 loss 0.0262 acc 0.9927 | val loss 0.2135 acc 0.9349 | 16.0s
+ep 10 loss 0.0163 acc 0.9939 | val loss 0.0708 acc 0.9805 | 16.0s
+ep 11 loss 0.0083 acc 0.9984 | val loss 0.0447 acc 0.9870 | 16.0s
+ep 12 loss 0.0115 acc 0.9943 | val loss 0.1703 acc 0.9739 | 16.0s
+ep 13 loss 0.0184 acc 0.9935 | val loss 0.0419 acc 0.9870 | 16.0s
+ep 14 loss 0.0117 acc 0.9963 | val loss 0.2169 acc 0.9479 | 16.1s
+ep 15 loss 0.0051 acc 0.9984 | val loss 0.0341 acc 0.9935 | 16.0s
+ep 16 loss 0.0196 acc 0.9955 | val loss 0.0892 acc 0.9739 | 16.0s
+ep 17 loss 0.0143 acc 0.9963 | val loss 0.0558 acc 0.9837 | 16.0s
+ep 18 loss 0.0114 acc 0.9971 | val loss 0.0803 acc 0.9805 | 16.1s
+ep 19 loss 0.0117 acc 0.9955 | val loss 0.0685 acc 0.9805 | 16.0s
+ep 20 loss 0.0005 acc 1.0000 | val loss 0.1180 acc 0.9805 | 16.0s
+ep 21 loss 0.0000 acc 1.0000 | val loss 0.0262 acc 0.9935 | 16.0s
+ep 22 loss 0.0000 acc 1.0000 | val loss 0.0310 acc 0.9935 | 16.0s
+ep 23 loss 0.0000 acc 1.0000 | val loss 0.0350 acc 0.9935 | 16.0s
+ep 24 loss 0.0000 acc 1.0000 | val loss 0.0374 acc 0.9935 | 16.0s
+ep 25 loss 0.0000 acc 1.0000 | val loss 0.0370 acc 0.9935 | 16.0s
+ep 26 loss 0.0000 acc 1.0000 | val loss 0.0359 acc 0.9935 | 16.0s
+ep 27 loss 0.0000 acc 1.0000 | val loss 0.0367 acc 0.9935 | 16.0s
+ep 28 loss 0.0000 acc 1.0000 | val loss 0.0365 acc 0.9935 | 16.0s
+early stopping
+TEST acc 0.9870 f1 0.9846 kappa 0.9796 mcc 0.9796

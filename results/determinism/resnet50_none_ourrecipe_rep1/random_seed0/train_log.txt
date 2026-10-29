@@ -1,0 +1,43 @@
+resnet50_none_ourrecipe_rep1 | random_seed0 | recipe=ours | train/val/test = [2450, 307, 307]
+complexity {'params_M': 23.514179, 'gflops': 4.0871424, 'ms_per_image': 0.9643830358982086}
+ep 01 loss 0.8326 acc 0.6763 | val loss 1.0670 acc 0.4137 | 8.8s
+ep 02 loss 0.5061 acc 0.8992 | val loss 0.8825 acc 0.7915 | 9.0s
+ep 03 loss 0.4203 acc 0.9518 | val loss 0.5969 acc 0.8990 | 9.3s
+ep 04 loss 0.3970 acc 0.9624 | val loss 0.3658 acc 0.9381 | 9.3s
+ep 05 loss 0.3695 acc 0.9739 | val loss 0.2553 acc 0.9609 | 9.2s
+ep 06 loss 0.3531 acc 0.9833 | val loss 0.2009 acc 0.9642 | 9.4s
+ep 07 loss 0.3380 acc 0.9927 | val loss 0.1660 acc 0.9674 | 9.2s
+ep 08 loss 0.3397 acc 0.9898 | val loss 0.1493 acc 0.9707 | 9.3s
+ep 09 loss 0.3378 acc 0.9898 | val loss 0.1367 acc 0.9805 | 9.3s
+ep 10 loss 0.3343 acc 0.9922 | val loss 0.1237 acc 0.9870 | 9.5s
+ep 11 loss 0.3360 acc 0.9927 | val loss 0.1178 acc 0.9902 | 9.3s
+ep 12 loss 0.3285 acc 0.9955 | val loss 0.1167 acc 0.9870 | 9.3s
+ep 13 loss 0.3243 acc 0.9959 | val loss 0.1133 acc 0.9902 | 9.2s
+ep 14 loss 0.3332 acc 0.9931 | val loss 0.1118 acc 0.9902 | 9.3s
+ep 15 loss 0.3274 acc 0.9943 | val loss 0.1092 acc 0.9870 | 9.2s
+ep 16 loss 0.3224 acc 0.9980 | val loss 0.1014 acc 0.9935 | 9.1s
+ep 17 loss 0.3265 acc 0.9955 | val loss 0.0993 acc 0.9935 | 9.2s
+ep 18 loss 0.3226 acc 0.9963 | val loss 0.0989 acc 0.9967 | 9.2s
+ep 19 loss 0.3164 acc 1.0000 | val loss 0.0986 acc 0.9967 | 9.2s
+ep 20 loss 0.3160 acc 0.9996 | val loss 0.0993 acc 0.9967 | 9.3s
+ep 21 loss 0.3173 acc 0.9992 | val loss 0.1009 acc 0.9935 | 9.2s
+ep 22 loss 0.3167 acc 0.9988 | val loss 0.0968 acc 0.9967 | 9.3s
+ep 23 loss 0.3159 acc 0.9996 | val loss 0.0952 acc 0.9967 | 9.3s
+ep 24 loss 0.3166 acc 0.9992 | val loss 0.0950 acc 0.9967 | 9.1s
+ep 25 loss 0.3155 acc 0.9996 | val loss 0.0955 acc 0.9967 | 9.2s
+ep 26 loss 0.3153 acc 1.0000 | val loss 0.0957 acc 0.9967 | 9.2s
+ep 27 loss 0.3150 acc 1.0000 | val loss 0.0957 acc 0.9967 | 9.3s
+ep 28 loss 0.3145 acc 1.0000 | val loss 0.0963 acc 0.9967 | 9.3s
+ep 29 loss 0.3145 acc 1.0000 | val loss 0.0965 acc 0.9967 | 9.3s
+ep 30 loss 0.3145 acc 1.0000 | val loss 0.0967 acc 0.9967 | 9.4s
+ep 31 loss 0.3141 acc 1.0000 | val loss 0.0966 acc 0.9967 | 9.4s
+ep 32 loss 0.3142 acc 1.0000 | val loss 0.0964 acc 0.9967 | 9.3s
+ep 33 loss 0.3143 acc 1.0000 | val loss 0.0963 acc 0.9967 | 9.3s
+ep 34 loss 0.3145 acc 1.0000 | val loss 0.0966 acc 0.9967 | 9.4s
+ep 35 loss 0.3141 acc 1.0000 | val loss 0.0969 acc 0.9967 | 9.4s
+ep 36 loss 0.3144 acc 1.0000 | val loss 0.0971 acc 0.9967 | 9.4s
+ep 37 loss 0.3142 acc 1.0000 | val loss 0.0973 acc 0.9967 | 9.4s
+ep 38 loss 0.3141 acc 1.0000 | val loss 0.0972 acc 0.9967 | 9.3s
+ep 39 loss 0.3141 acc 1.0000 | val loss 0.0973 acc 0.9967 | 9.4s
+ep 40 loss 0.3141 acc 1.0000 | val loss 0.0973 acc 0.9967 | 9.3s
+TEST acc 1.0000 f1 1.0000 kappa 1.0000 mcc 1.0000

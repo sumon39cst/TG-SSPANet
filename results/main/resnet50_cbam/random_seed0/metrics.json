@@ -1,0 +1,83 @@
+{
+ "accuracy": 0.9804560260586319,
+ "precision_macro": 0.9812057441598835,
+ "recall_macro": 0.975305425555312,
+ "f1_macro": 0.978145471225056,
+ "precision_weighted": 0.9805349210629615,
+ "recall_weighted": 0.9804560260586319,
+ "f1_weighted": 0.9803921554121615,
+ "cohen_kappa": 0.9692569597436411,
+ "mcc": 0.9693756674491444,
+ "auc_macro_ovr": 0.9996930387966144,
+ "recall_meningioma": 0.9436619718309859,
+ "precision_meningioma": 0.9710144927536232,
+ "recall_glioma": 0.993006993006993,
+ "precision_glioma": 0.9726027397260274,
+ "recall_pituitary": 0.989247311827957,
+ "precision_pituitary": 1.0,
+ "confusion_matrix": [
+  [
+   67,
+   4,
+   0
+  ],
+  [
+   1,
+   142,
+   0
+  ],
+  [
+   1,
+   0,
+   92
+  ]
+ ],
+ "params_M": 24.040743,
+ "gflops": 4.088195778,
+ "ms_per_image": 0.9394273161888123,
+ "name": "resnet50_cbam",
+ "protocol": "random",
+ "fold": 1,
+ "seed": 0,
+ "recipe": "paper",
+ "group": "main",
+ "epochs_run": 16,
+ "config": {
+  "epochs": 30,
+  "lr": 0.0001,
+  "opt": "adam",
+  "wd": 0.0,
+  "bs": 32,
+  "patience": 7,
+  "select": "val_loss",
+  "augment": false,
+  "strong": false,
+  "label_smoothing": 0.0,
+  "class_weight": false,
+  "ema": false,
+  "tta": false,
+  "w_seg": 0.0,
+  "w_att": 0.0
+ },
+ "args": {
+  "kind": "baseline",
+  "backbone": "resnet50",
+  "attn": "cbam",
+  "recipe": "paper",
+  "protocol": "random",
+  "fold": 1,
+  "seed": 0,
+  "name": "resnet50_cbam",
+  "group": "main",
+  "stages": "1,2,3",
+  "no_seg": false,
+  "no_tfp": false,
+  "no_channel": false,
+  "no_strip": false,
+  "no_style": false,
+  "floor": 0.1,
+  "w_att": null,
+  "w_seg": null,
+  "epochs": null
+ }
+}

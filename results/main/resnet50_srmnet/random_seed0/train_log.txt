@@ -1,0 +1,16 @@
+resnet50_srmnet | random_seed0 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 23.522371, 'gflops': 4.087146496, 'ms_per_image': 0.935886800289154}
+ep 01 loss 0.5368 acc 0.8024 | val loss 0.2081 acc 0.9251 | 8.0s
+ep 02 loss 0.1416 acc 0.9555 | val loss 0.0953 acc 0.9609 | 7.9s
+ep 03 loss 0.0487 acc 0.9853 | val loss 0.0719 acc 0.9707 | 8.0s
+ep 04 loss 0.0319 acc 0.9898 | val loss 0.0865 acc 0.9707 | 8.1s
+ep 05 loss 0.0266 acc 0.9927 | val loss 0.0286 acc 0.9902 | 8.2s
+ep 06 loss 0.0187 acc 0.9955 | val loss 0.0533 acc 0.9772 | 8.2s
+ep 07 loss 0.0066 acc 0.9988 | val loss 0.0438 acc 0.9805 | 8.2s
+ep 08 loss 0.0063 acc 0.9980 | val loss 0.0368 acc 0.9902 | 8.3s
+ep 09 loss 0.0089 acc 0.9980 | val loss 0.0474 acc 0.9837 | 8.3s
+ep 10 loss 0.0094 acc 0.9971 | val loss 0.0387 acc 0.9902 | 8.3s
+ep 11 loss 0.0106 acc 0.9951 | val loss 0.0601 acc 0.9772 | 8.3s
+ep 12 loss 0.0056 acc 0.9988 | val loss 0.0415 acc 0.9837 | 8.3s
+early stopping
+TEST acc 0.9967 f1 0.9965 kappa 0.9949 mcc 0.9949

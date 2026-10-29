@@ -1,0 +1,83 @@
+{
+ "accuracy": 0.9771986970684039,
+ "precision_macro": 0.9713184931506849,
+ "recall_macro": 0.978955316983486,
+ "f1_macro": 0.9748889077180892,
+ "precision_weighted": 0.9778610392218107,
+ "recall_weighted": 0.9771986970684039,
+ "f1_weighted": 0.977267075585378,
+ "cohen_kappa": 0.964422885901596,
+ "mcc": 0.9647363436557516,
+ "auc_macro_ovr": 0.9994088787968228,
+ "recall_meningioma": 0.971830985915493,
+ "precision_meningioma": 0.9452054794520548,
+ "recall_glioma": 0.965034965034965,
+ "precision_glioma": 1.0,
+ "recall_pituitary": 1.0,
+ "precision_pituitary": 0.96875,
+ "confusion_matrix": [
+  [
+   69,
+   0,
+   2
+  ],
+  [
+   4,
+   138,
+   1
+  ],
+  [
+   0,
+   0,
+   93
+  ]
+ ],
+ "params_M": 14.946883,
+ "gflops": 15.353742848,
+ "ms_per_image": 1.913926750421524,
+ "name": "vgg16_spnet",
+ "protocol": "random",
+ "fold": 1,
+ "seed": 0,
+ "recipe": "paper",
+ "group": "main",
+ "epochs_run": 13,
+ "config": {
+  "epochs": 30,
+  "lr": 0.0001,
+  "opt": "adam",
+  "wd": 0.0,
+  "bs": 32,
+  "patience": 7,
+  "select": "val_loss",
+  "augment": false,
+  "strong": false,
+  "label_smoothing": 0.0,
+  "class_weight": false,
+  "ema": false,
+  "tta": false,
+  "w_seg": 0.0,
+  "w_att": 0.0
+ },
+ "args": {
+  "kind": "baseline",
+  "backbone": "vgg16",
+  "attn": "spnet",
+  "recipe": "paper",
+  "protocol": "random",
+  "fold": 1,
+  "seed": 0,
+  "name": "vgg16_spnet",
+  "group": "main",
+  "stages": "1,2,3",
+  "no_seg": false,
+  "no_tfp": false,
+  "no_channel": false,
+  "no_strip": false,
+  "no_style": false,
+  "floor": 0.1,
+  "w_att": null,
+  "w_seg": null,
+  "epochs": null
+ }
+}

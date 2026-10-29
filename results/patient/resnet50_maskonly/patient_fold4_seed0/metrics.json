@@ -1,0 +1,66 @@
+{
+ "accuracy": 0.6863057324840764,
+ "precision_macro": 0.6626448830792911,
+ "recall_macro": 0.6956554426530999,
+ "f1_macro": 0.6609746497994515,
+ "precision_weighted": 0.7357781438402187,
+ "recall_weighted": 0.6863057324840764,
+ "f1_weighted": 0.6902142940538598,
+ "cohen_kappa": 0.522232434561646,
+ "mcc": 0.5396406010148828,
+ "auc_macro_ovr": 0.8477039582360565,
+ "recall_meningioma": 0.5403225806451613,
+ "precision_meningioma": 0.39880952380952384,
+ "recall_glioma": 0.5969230769230769,
+ "precision_glioma": 0.8778280542986425,
+ "recall_pituitary": 0.9497206703910615,
+ "precision_pituitary": 0.7112970711297071,
+ "confusion_matrix": [
+  [
+   67,
+   24,
+   33
+  ],
+  [
+   95,
+   194,
+   36
+  ],
+  [
+   6,
+   3,
+   170
+  ]
+ ],
+ "name": "resnet50_maskonly",
+ "protocol": "patient",
+ "fold": 4,
+ "seed": 0,
+ "recipe": "ours",
+ "group": "patient",
+ "epochs_run": 40,
+ "config": {
+  "epochs": 40,
+  "lr": 0.0002,
+  "head_lr_mult": 5.0,
+  "opt": "adamw",
+  "wd": 0.0001,
+  "bs": 32,
+  "patience": 100,
+  "select": "val_acc",
+  "augment": true,
+  "strong": true,
+  "label_smoothing": 0.1,
+  "class_weight": true,
+  "ema": true,
+  "tta": true,
+  "w_seg": 0.0,
+  "w_att": 0.0,
+  "warmup": 2
+ },
+ "args": {
+  "kind": "maskonly",
+  "backbone": "resnet50",
+  "attn": "none"
+ }
+}

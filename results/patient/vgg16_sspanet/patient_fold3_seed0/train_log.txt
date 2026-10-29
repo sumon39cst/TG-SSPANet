@@ -1,0 +1,15 @@
+vgg16_sspanet | patient_fold3_seed0 | recipe=paper | train/val/test = [2248, 244, 572]
+complexity {'params_M': 14.749804, 'gflops': 15.346894432, 'ms_per_image': 1.8687866628170013}
+ep 01 loss 0.4661 acc 0.7994 | val loss 0.1952 acc 0.9467 | 14.3s
+ep 02 loss 0.1711 acc 0.9386 | val loss 0.5154 acc 0.8852 | 14.5s
+ep 03 loss 0.0927 acc 0.9689 | val loss 0.4180 acc 0.9221 | 14.7s
+ep 04 loss 0.0569 acc 0.9809 | val loss 0.1697 acc 0.9549 | 14.8s
+ep 05 loss 0.0487 acc 0.9862 | val loss 0.1727 acc 0.9631 | 14.6s
+ep 06 loss 0.0195 acc 0.9947 | val loss 0.2709 acc 0.9549 | 14.6s
+ep 07 loss 0.0132 acc 0.9947 | val loss 0.3757 acc 0.9467 | 14.6s
+ep 08 loss 0.0031 acc 0.9991 | val loss 0.7315 acc 0.8811 | 14.7s
+ep 09 loss 0.0204 acc 0.9924 | val loss 0.4059 acc 0.9549 | 14.7s
+ep 10 loss 0.0024 acc 0.9991 | val loss 0.4400 acc 0.9467 | 14.6s
+ep 11 loss 0.0135 acc 0.9942 | val loss 0.2141 acc 0.9631 | 14.7s
+early stopping
+TEST acc 0.8829 f1 0.8787 kappa 0.8243 mcc 0.8335

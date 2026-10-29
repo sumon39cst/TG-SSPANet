@@ -1,0 +1,16 @@
+fold,part,slices,patients,meningioma_patients,meningioma_slices,glioma_patients,glioma_slices,pituitary_patients,pituitary_slices
+1,train,2284,169,59,532,65,1055,45,697
+1,validation,238,19,7,64,7,126,5,48
+1,test,542,45,16,112,17,245,12,185
+2,train,2137,168,59,459,64,982,45,696
+2,validation,248,19,7,82,7,106,5,60
+2,test,679,46,16,167,18,338,12,174
+3,train,2248,167,59,490,64,1109,44,649
+3,validation,244,18,6,79,7,86,5,79
+3,test,572,48,17,139,18,231,13,202
+4,train,2185,168,59,503,64,997,45,685
+4,validation,251,18,6,81,7,104,5,66
+4,test,628,47,17,124,18,325,12,179
+5,train,2210,167,59,488,64,1059,44,663
+5,validation,211,19,7,54,7,80,5,77
+5,test,643,47,16,166,18,287,13,190

@@ -1,0 +1,83 @@
+{
+ "accuracy": 0.9278350515463918,
+ "precision_macro": 0.9265728651709132,
+ "recall_macro": 0.9221047804411581,
+ "f1_macro": 0.9242200680340873,
+ "precision_weighted": 0.9276111794894962,
+ "recall_weighted": 0.9278350515463918,
+ "f1_weighted": 0.9276226928301458,
+ "cohen_kappa": 0.8843833617124787,
+ "mcc": 0.8844829016746037,
+ "auc_macro_ovr": 0.9820649514133774,
+ "recall_meningioma": 0.874251497005988,
+ "precision_meningioma": 0.906832298136646,
+ "recall_glioma": 0.9437869822485208,
+ "precision_glioma": 0.9300291545189504,
+ "recall_pituitary": 0.9482758620689655,
+ "precision_pituitary": 0.9428571428571428,
+ "confusion_matrix": [
+  [
+   146,
+   17,
+   4
+  ],
+  [
+   13,
+   319,
+   6
+  ],
+  [
+   2,
+   7,
+   165
+  ]
+ ],
+ "params_M": 23.514179,
+ "gflops": 4.0871424,
+ "ms_per_image": 0.9374983608722687,
+ "name": "resnet50_none",
+ "protocol": "patient",
+ "fold": 2,
+ "seed": 0,
+ "recipe": "paper",
+ "group": "patient",
+ "epochs_run": 16,
+ "config": {
+  "epochs": 30,
+  "lr": 0.0001,
+  "opt": "adam",
+  "wd": 0.0,
+  "bs": 32,
+  "patience": 7,
+  "select": "val_loss",
+  "augment": false,
+  "strong": false,
+  "label_smoothing": 0.0,
+  "class_weight": false,
+  "ema": false,
+  "tta": false,
+  "w_seg": 0.0,
+  "w_att": 0.0
+ },
+ "args": {
+  "kind": "baseline",
+  "backbone": "resnet50",
+  "attn": "none",
+  "recipe": "paper",
+  "protocol": "patient",
+  "fold": 2,
+  "seed": 0,
+  "name": "resnet50_none",
+  "group": "patient",
+  "stages": "1,2,3",
+  "no_seg": false,
+  "no_tfp": false,
+  "no_channel": false,
+  "no_strip": false,
+  "no_style": false,
+  "floor": 0.1,
+  "w_att": null,
+  "w_seg": null,
+  "epochs": null
+ }
+}

@@ -1,0 +1,17 @@
+vgg16_coordinate | random_seed0 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 14.741859, 'gflops': 15.346861568, 'ms_per_image': 1.877845823764801}
+ep 01 loss 0.4976 acc 0.7873 | val loss 0.2228 acc 0.9121 | 15.5s
+ep 02 loss 0.2449 acc 0.9098 | val loss 0.2121 acc 0.9088 | 15.7s
+ep 03 loss 0.1443 acc 0.9478 | val loss 0.0693 acc 0.9837 | 16.0s
+ep 04 loss 0.0576 acc 0.9812 | val loss 0.0422 acc 0.9902 | 16.0s
+ep 05 loss 0.0338 acc 0.9873 | val loss 0.0476 acc 0.9739 | 16.0s
+ep 06 loss 0.0501 acc 0.9841 | val loss 0.0302 acc 0.9902 | 16.0s
+ep 07 loss 0.0215 acc 0.9927 | val loss 0.1000 acc 0.9707 | 16.0s
+ep 08 loss 0.0297 acc 0.9898 | val loss 0.1641 acc 0.9577 | 16.0s
+ep 09 loss 0.0170 acc 0.9947 | val loss 0.1390 acc 0.9577 | 15.9s
+ep 10 loss 0.0091 acc 0.9971 | val loss 0.0952 acc 0.9707 | 15.9s
+ep 11 loss 0.0097 acc 0.9963 | val loss 0.0468 acc 0.9902 | 15.9s
+ep 12 loss 0.0370 acc 0.9886 | val loss 0.1707 acc 0.9577 | 16.0s
+ep 13 loss 0.0038 acc 0.9992 | val loss 0.2912 acc 0.9511 | 15.9s
+early stopping
+TEST acc 0.9837 f1 0.9830 kappa 0.9745 mcc 0.9746

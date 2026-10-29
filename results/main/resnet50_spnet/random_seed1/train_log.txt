@@ -1,0 +1,21 @@
+resnet50_spnet | random_seed1 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 27.189315, 'gflops': 4.200912896, 'ms_per_image': 0.98753422498703}
+ep 01 loss 0.4887 acc 0.8049 | val loss 0.2340 acc 0.9088 | 8.3s
+ep 02 loss 0.1282 acc 0.9563 | val loss 0.1952 acc 0.9218 | 8.2s
+ep 03 loss 0.0540 acc 0.9824 | val loss 0.0673 acc 0.9707 | 8.4s
+ep 04 loss 0.0231 acc 0.9918 | val loss 0.1619 acc 0.9479 | 8.5s
+ep 05 loss 0.0288 acc 0.9910 | val loss 0.0583 acc 0.9837 | 8.6s
+ep 06 loss 0.0121 acc 0.9951 | val loss 0.0663 acc 0.9805 | 8.6s
+ep 07 loss 0.0139 acc 0.9963 | val loss 0.0738 acc 0.9805 | 8.6s
+ep 08 loss 0.0131 acc 0.9967 | val loss 0.0817 acc 0.9739 | 8.6s
+ep 09 loss 0.0067 acc 0.9976 | val loss 0.0695 acc 0.9772 | 8.6s
+ep 10 loss 0.0119 acc 0.9963 | val loss 0.0372 acc 0.9870 | 8.6s
+ep 11 loss 0.0142 acc 0.9959 | val loss 0.0663 acc 0.9772 | 8.6s
+ep 12 loss 0.0086 acc 0.9976 | val loss 0.0396 acc 0.9935 | 8.6s
+ep 13 loss 0.0112 acc 0.9967 | val loss 0.0515 acc 0.9837 | 8.6s
+ep 14 loss 0.0163 acc 0.9939 | val loss 0.1345 acc 0.9707 | 8.6s
+ep 15 loss 0.0125 acc 0.9959 | val loss 0.1043 acc 0.9739 | 8.6s
+ep 16 loss 0.0112 acc 0.9980 | val loss 0.0718 acc 0.9739 | 8.6s
+ep 17 loss 0.0016 acc 1.0000 | val loss 0.0635 acc 0.9870 | 8.6s
+early stopping
+TEST acc 0.9642 f1 0.9626 kappa 0.9439 mcc 0.9439

@@ -1,0 +1,25 @@
+resnet50_none | patient_fold5_seed0 | recipe=paper | train/val/test = [2210, 211, 643]
+complexity {'params_M': 23.514179, 'gflops': 4.0871424, 'ms_per_image': 0.936310738325119}
+ep 01 loss 0.4562 acc 0.8267 | val loss 0.3335 acc 0.8768 | 7.1s
+ep 02 loss 0.0972 acc 0.9629 | val loss 0.2367 acc 0.9100 | 6.9s
+ep 03 loss 0.0382 acc 0.9851 | val loss 0.7809 acc 0.7867 | 7.1s
+ep 04 loss 0.0142 acc 0.9973 | val loss 0.2947 acc 0.9242 | 7.2s
+ep 05 loss 0.0071 acc 0.9982 | val loss 0.2955 acc 0.9479 | 7.3s
+ep 06 loss 0.0115 acc 0.9946 | val loss 0.3798 acc 0.8863 | 7.3s
+ep 07 loss 0.0131 acc 0.9964 | val loss 0.6245 acc 0.8531 | 7.3s
+ep 08 loss 0.0068 acc 0.9986 | val loss 0.2430 acc 0.9289 | 7.3s
+ep 09 loss 0.0071 acc 0.9977 | val loss 0.2321 acc 0.9479 | 7.3s
+ep 10 loss 0.0057 acc 0.9982 | val loss 0.4103 acc 0.9147 | 7.3s
+ep 11 loss 0.0166 acc 0.9968 | val loss 1.1724 acc 0.8057 | 7.3s
+ep 12 loss 0.0142 acc 0.9946 | val loss 0.2907 acc 0.9242 | 7.3s
+ep 13 loss 0.0093 acc 0.9968 | val loss 0.5510 acc 0.9005 | 7.3s
+ep 14 loss 0.0109 acc 0.9968 | val loss 0.1737 acc 0.9479 | 7.3s
+ep 15 loss 0.0071 acc 0.9982 | val loss 0.6324 acc 0.8815 | 7.3s
+ep 16 loss 0.0054 acc 0.9986 | val loss 0.2923 acc 0.9242 | 7.4s
+ep 17 loss 0.0007 acc 1.0000 | val loss 0.2909 acc 0.9384 | 7.3s
+ep 18 loss 0.0003 acc 1.0000 | val loss 0.3084 acc 0.9289 | 7.3s
+ep 19 loss 0.0005 acc 1.0000 | val loss 0.4840 acc 0.9100 | 7.3s
+ep 20 loss 0.0006 acc 0.9995 | val loss 0.3683 acc 0.9431 | 7.3s
+ep 21 loss 0.0049 acc 0.9977 | val loss 0.6029 acc 0.8531 | 7.3s
+early stopping
+TEST acc 0.9238 f1 0.9119 kappa 0.8819 mcc 0.8842

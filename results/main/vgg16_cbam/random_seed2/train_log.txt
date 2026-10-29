@@ -1,0 +1,15 @@
+vgg16_cbam | random_seed2 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 14.749639, 'gflops': 15.34670253, 'ms_per_image': 1.9078485667705536}
+ep 01 loss 0.5057 acc 0.7980 | val loss 0.2510 acc 0.9023 | 15.6s
+ep 02 loss 0.2777 acc 0.8910 | val loss 0.1683 acc 0.9446 | 15.8s
+ep 03 loss 0.1592 acc 0.9445 | val loss 0.1160 acc 0.9479 | 16.1s
+ep 04 loss 0.0895 acc 0.9686 | val loss 0.0403 acc 0.9870 | 16.1s
+ep 05 loss 0.0427 acc 0.9833 | val loss 0.2201 acc 0.9479 | 16.1s
+ep 06 loss 0.0371 acc 0.9886 | val loss 0.1107 acc 0.9739 | 16.1s
+ep 07 loss 0.0207 acc 0.9951 | val loss 0.1211 acc 0.9544 | 16.1s
+ep 08 loss 0.0238 acc 0.9918 | val loss 0.2128 acc 0.9577 | 16.1s
+ep 09 loss 0.0231 acc 0.9931 | val loss 0.0628 acc 0.9739 | 16.0s
+ep 10 loss 0.0040 acc 0.9992 | val loss 0.0505 acc 0.9870 | 16.0s
+ep 11 loss 0.0027 acc 0.9988 | val loss 0.0478 acc 0.9837 | 16.0s
+early stopping
+TEST acc 0.9837 f1 0.9820 kappa 0.9745 mcc 0.9747

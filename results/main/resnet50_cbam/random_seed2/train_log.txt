@@ -1,0 +1,30 @@
+resnet50_cbam | random_seed2 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 24.040743, 'gflops': 4.088195778, 'ms_per_image': 0.9375587105751038}
+ep 01 loss 0.5599 acc 0.7967 | val loss 0.2505 acc 0.9088 | 8.1s
+ep 02 loss 0.1401 acc 0.9486 | val loss 0.1623 acc 0.9446 | 8.0s
+ep 03 loss 0.0327 acc 0.9910 | val loss 0.0507 acc 0.9772 | 8.2s
+ep 04 loss 0.0237 acc 0.9927 | val loss 0.1151 acc 0.9674 | 8.3s
+ep 05 loss 0.0145 acc 0.9967 | val loss 0.0788 acc 0.9707 | 8.3s
+ep 06 loss 0.0152 acc 0.9955 | val loss 0.0611 acc 0.9772 | 8.3s
+ep 07 loss 0.0077 acc 0.9976 | val loss 0.0809 acc 0.9772 | 8.3s
+ep 08 loss 0.0171 acc 0.9963 | val loss 0.0602 acc 0.9837 | 8.4s
+ep 09 loss 0.0058 acc 0.9984 | val loss 0.0495 acc 0.9902 | 8.4s
+ep 10 loss 0.0074 acc 0.9980 | val loss 0.0836 acc 0.9772 | 8.4s
+ep 11 loss 0.0056 acc 0.9984 | val loss 0.0710 acc 0.9805 | 8.4s
+ep 12 loss 0.0176 acc 0.9943 | val loss 0.0433 acc 0.9837 | 8.4s
+ep 13 loss 0.0135 acc 0.9959 | val loss 0.0463 acc 0.9837 | 8.3s
+ep 14 loss 0.0099 acc 0.9971 | val loss 0.0241 acc 0.9870 | 8.4s
+ep 15 loss 0.0028 acc 0.9996 | val loss 0.0419 acc 0.9837 | 8.4s
+ep 16 loss 0.0165 acc 0.9971 | val loss 0.0629 acc 0.9805 | 8.4s
+ep 17 loss 0.0024 acc 0.9992 | val loss 0.0221 acc 0.9902 | 8.4s
+ep 18 loss 0.0006 acc 1.0000 | val loss 0.0534 acc 0.9805 | 8.3s
+ep 19 loss 0.0025 acc 0.9996 | val loss 0.0092 acc 0.9967 | 8.4s
+ep 20 loss 0.0003 acc 1.0000 | val loss 0.0126 acc 0.9967 | 8.3s
+ep 21 loss 0.0008 acc 0.9996 | val loss 0.0152 acc 0.9967 | 8.4s
+ep 22 loss 0.0082 acc 0.9984 | val loss 0.0463 acc 0.9837 | 8.4s
+ep 23 loss 0.0101 acc 0.9963 | val loss 0.1077 acc 0.9772 | 8.4s
+ep 24 loss 0.0129 acc 0.9959 | val loss 0.1186 acc 0.9674 | 8.4s
+ep 25 loss 0.0037 acc 0.9988 | val loss 0.0299 acc 0.9902 | 8.4s
+ep 26 loss 0.0061 acc 0.9984 | val loss 0.0236 acc 0.9967 | 8.4s
+early stopping
+TEST acc 0.9935 f1 0.9930 kappa 0.9898 mcc 0.9898

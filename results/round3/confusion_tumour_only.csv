@@ -1,0 +1,37 @@
+model,true,pred_meningioma,pred_glioma,pred_pituitary
+resnet50_none,meningioma,317,340,0
+resnet50_none,glioma,225,928,0
+resnet50_none,pituitary,286,644,0
+resnet50_sspanet,meningioma,604,53,0
+resnet50_sspanet,glioma,718,433,2
+resnet50_sspanet,pituitary,574,354,2
+resnet50_none_ourrecipe,meningioma,647,0,10
+resnet50_none_ourrecipe,glioma,1044,36,73
+resnet50_none_ourrecipe,pituitary,832,12,86
+resnet50_sspanet_ourrecipe,meningioma,645,0,12
+resnet50_sspanet_ourrecipe,glioma,1067,25,61
+resnet50_sspanet_ourrecipe,pituitary,839,12,79
+resnet50_TG-noTFP,meningioma,605,0,52
+resnet50_TG-noTFP,glioma,950,58,145
+resnet50_TG-noTFP,pituitary,725,33,172
+resnet50_TG-SSPANet,meningioma,642,4,11
+resnet50_TG-SSPANet,glioma,953,145,55
+resnet50_TG-SSPANet,pituitary,794,81,55
+resnet50_TG-oracleGT,meningioma,653,4,0
+resnet50_TG-oracleGT,glioma,1117,24,12
+resnet50_TG-oracleGT,pituitary,887,40,3
+resnet50_roicrop [pred crop],meningioma,652,5,0
+resnet50_roicrop [pred crop],glioma,885,266,2
+resnet50_roicrop [pred crop],pituitary,864,61,5
+resnet50_roicrop [gt crop],meningioma,655,2,0
+resnet50_roicrop [gt crop],glioma,914,235,4
+resnet50_roicrop [gt crop],pituitary,865,63,2
+vgg16_none,meningioma,628,29,0
+vgg16_none,glioma,985,168,0
+vgg16_none,pituitary,783,147,0
+vgg16_none_ourrecipe,meningioma,642,15,0
+vgg16_none_ourrecipe,glioma,1007,144,2
+vgg16_none_ourrecipe,pituitary,803,126,1
+vgg16_TG-SSPANet,meningioma,638,19,0
+vgg16_TG-SSPANet,glioma,965,187,1
+vgg16_TG-SSPANet,pituitary,779,151,0

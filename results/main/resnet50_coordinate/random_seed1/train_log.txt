@@ -1,0 +1,16 @@
+resnet50_coordinate | random_seed1 | recipe=paper | train/val/test = [2450, 307, 307]
+complexity {'params_M': 23.911619, 'gflops': 4.090812416, 'ms_per_image': 0.9392485022544861}
+ep 01 loss 0.5880 acc 0.8261 | val loss 0.2163 acc 0.9251 | 8.0s
+ep 02 loss 0.1428 acc 0.9518 | val loss 0.1034 acc 0.9674 | 7.9s
+ep 03 loss 0.0551 acc 0.9808 | val loss 0.0810 acc 0.9805 | 8.1s
+ep 04 loss 0.0332 acc 0.9918 | val loss 0.0834 acc 0.9805 | 8.2s
+ep 05 loss 0.0169 acc 0.9955 | val loss 0.0484 acc 0.9902 | 8.2s
+ep 06 loss 0.0211 acc 0.9943 | val loss 0.0596 acc 0.9805 | 8.3s
+ep 07 loss 0.0136 acc 0.9963 | val loss 0.0968 acc 0.9707 | 8.3s
+ep 08 loss 0.0118 acc 0.9971 | val loss 0.0873 acc 0.9772 | 8.3s
+ep 09 loss 0.0113 acc 0.9976 | val loss 0.0972 acc 0.9739 | 8.3s
+ep 10 loss 0.0071 acc 0.9971 | val loss 0.0733 acc 0.9837 | 8.3s
+ep 11 loss 0.0060 acc 0.9984 | val loss 0.1358 acc 0.9707 | 8.3s
+ep 12 loss 0.0052 acc 0.9988 | val loss 0.0493 acc 0.9870 | 8.3s
+early stopping
+TEST acc 0.9967 f1 0.9959 kappa 0.9949 mcc 0.9949

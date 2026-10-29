@@ -1,0 +1,13 @@
+﻿vgg16_TG-SSPANet | random_seed0 | recipe=ours | train/val/test = [2450, 307, 307]
+complexity {'params_M': 15.256989, 'gflops': 16.376916736, 'ms_per_image': 2.3334018886089325}
+ep 01 loss 2.3339 acc 0.7131 | val loss 0.9224 acc 0.7427 | 19.1s
+ep 02 loss 1.5568 acc 0.9016 | val loss 0.6673 acc 0.8664 | 19.0s
+ep 03 loss 1.0601 acc 0.9518 | val loss 0.4562 acc 0.9511 | 19.4s
+ep 04 loss 0.8090 acc 0.9637 | val loss 0.3036 acc 0.9609 | 19.5s
+ep 05 loss 0.7016 acc 0.9784 | val loss 0.2080 acc 0.9772 | 19.5s
+ep 06 loss 0.6669 acc 0.9800 | val loss 0.1720 acc 0.9805 | 19.5s
+ep 07 loss 0.6202 acc 0.9910 | val loss 0.1528 acc 0.9805 | 24.9s
+ep 08 loss 0.5878 acc 0.9943 | val loss 0.1374 acc 0.9837 | 19.5s
+ep 09 loss 0.5888 acc 0.9918 | val loss 0.1252 acc 0.9902 | 19.5s
+ep 10 loss 0.5695 acc 0.9939 | val loss 0.1212 acc 0.9902 | 21.2s
+ep 11 loss 0.5524 acc 0.9951 | val loss 0.1186 acc 0.9902 | 19.5s

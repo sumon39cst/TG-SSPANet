@@ -1,0 +1,32 @@
+resnet50_none | patient_fold3_seed0 | recipe=paper | train/val/test = [2248, 244, 572]
+complexity {'params_M': 23.514179, 'gflops': 4.0871424, 'ms_per_image': 0.940762460231781}
+ep 01 loss 0.4650 acc 0.8176 | val loss 0.4898 acc 0.7869 | 7.2s
+ep 02 loss 0.1018 acc 0.9613 | val loss 0.1825 acc 0.9344 | 7.1s
+ep 03 loss 0.0273 acc 0.9933 | val loss 0.5803 acc 0.8484 | 7.3s
+ep 04 loss 0.0359 acc 0.9907 | val loss 0.1761 acc 0.9672 | 7.4s
+ep 05 loss 0.0090 acc 0.9982 | val loss 0.1416 acc 0.9549 | 7.4s
+ep 06 loss 0.0040 acc 0.9991 | val loss 0.2576 acc 0.9344 | 7.4s
+ep 07 loss 0.0039 acc 0.9991 | val loss 0.2571 acc 0.9508 | 7.4s
+ep 08 loss 0.0141 acc 0.9969 | val loss 0.2449 acc 0.9549 | 7.5s
+ep 09 loss 0.0052 acc 0.9987 | val loss 0.3305 acc 0.9303 | 7.4s
+ep 10 loss 0.0047 acc 0.9987 | val loss 0.3169 acc 0.9549 | 7.4s
+ep 11 loss 0.0054 acc 0.9978 | val loss 0.3305 acc 0.9426 | 7.5s
+ep 12 loss 0.0189 acc 0.9956 | val loss 0.1329 acc 0.9795 | 7.5s
+ep 13 loss 0.0073 acc 0.9982 | val loss 0.1903 acc 0.9631 | 7.5s
+ep 14 loss 0.0089 acc 0.9973 | val loss 0.1865 acc 0.9672 | 7.5s
+ep 15 loss 0.0106 acc 0.9969 | val loss 0.1659 acc 0.9713 | 7.5s
+ep 16 loss 0.0040 acc 0.9982 | val loss 0.1582 acc 0.9672 | 7.5s
+ep 17 loss 0.0038 acc 0.9987 | val loss 0.2037 acc 0.9672 | 7.5s
+ep 18 loss 0.0031 acc 0.9987 | val loss 0.1927 acc 0.9590 | 7.5s
+ep 19 loss 0.0078 acc 0.9978 | val loss 0.1303 acc 0.9631 | 7.5s
+ep 20 loss 0.0113 acc 0.9964 | val loss 0.3754 acc 0.9262 | 7.5s
+ep 21 loss 0.0166 acc 0.9964 | val loss 0.1123 acc 0.9672 | 7.5s
+ep 22 loss 0.0224 acc 0.9933 | val loss 0.1410 acc 0.9713 | 7.5s
+ep 23 loss 0.0055 acc 0.9982 | val loss 0.2209 acc 0.9672 | 7.5s
+ep 24 loss 0.0004 acc 1.0000 | val loss 0.3273 acc 0.9467 | 7.5s
+ep 25 loss 0.0009 acc 1.0000 | val loss 0.1572 acc 0.9713 | 7.4s
+ep 26 loss 0.0001 acc 1.0000 | val loss 0.1675 acc 0.9713 | 7.5s
+ep 27 loss 0.0001 acc 1.0000 | val loss 0.1690 acc 0.9713 | 7.5s
+ep 28 loss 0.0021 acc 0.9991 | val loss 0.2156 acc 0.9549 | 7.5s
+early stopping
+TEST acc 0.9283 f1 0.9229 kappa 0.8910 mcc 0.8922
