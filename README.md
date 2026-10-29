@@ -1,7 +1,8 @@
 # TG-SSPANet reproducibility package
 
 **Trained checkpoints (209 models, 17 GB):** https://zenodo.org/records/23732120
-**Paper:** `paper/TG-SSPANet_manuscript_life-4637166.pdf` (revised manuscript, Life, MDPI)
+**Paper:** accepted in *Life* (MDPI, ISSN 2075-1729) on 29 October 2026, manuscript life-4637166.
+Accepted manuscript: `paper/TG-SSPANet_manuscript_life-4637166.pdf`
 
 ## Repository layout
 * `coding/` - all code (preprocessing, training, evaluation, statistics, figures)
